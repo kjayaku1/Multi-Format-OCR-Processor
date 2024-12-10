@@ -55,18 +55,44 @@ Instructions for setting up the project.
 1. Clone the repository:
    ```bash
    git clone <your_repo_url>
-   cd azure-ocr-api
+   cd (folder name)
 
 2. Install Dependencies
    ```bash
    npm install axios body-parser curl dotenv express multer node pm2 swagger-jsdoc swagger-ui-express
 
 3. Set up the environmental variables:
-   - create a `.env` file
+   - create a `.env` file(I Have Used 2 .env files whihc is .env.local and .env.live)
+  
+     .env.local
    ```bash 
-   AZURE_API_KEY=your_azure_api_key
-   AZURE_ENDPOINT=https://your-azure-endpoint.cognitiveservices.azure.com/
-   PORT=3000
+   APP_URL = http://localhost:4000
+PORT = 4000
+AZURE_API_ENDPOINT = https://si.cognitiveservices.azure.com
+AZURE_API_KEY = API KEY 1
+AZURE_API_KEY_TWO = API KEY 2 
+
+AZURE_API_TABLE_TEXT_ENDPOINT = https://tabletotext.cognitiveservices.azure.com
+AZURE_API_TABLE_TEXT_KEY = API KEY 1
+AZURE_API_TABLE_TEXT_KEY_TWO = API KEY 2
+
+AZURE_API_REGION = eastus
+
+- .env.live
+   ```bash 
+APP_URL = http://137.184.77.186:4000
+PORT = 4000
+AZURE_API_ENDPOINT = https://si.cognitiveservices.azure.com
+AZURE_API_KEY = API KEY 1
+AZURE_API_KEY_TWO = API KEY 2
+
+AZURE_API_TABLE_TEXT_ENDPOINT = https://tabletotext.cognitiveservices.azure.com
+AZURE_API_TABLE_TEXT_KEY = API KEY 1
+AZURE_API_TABLE_TEXT_KEY_TWO = API KEY 2
+
+AZURE_API_REGION = eastus
+
+
 4. Start the server
    ```bash
    pm2 start app.js
