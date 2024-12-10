@@ -178,6 +178,22 @@ I have uploaded the pdf whcich containes table
 
 ---
 
+## 🧪 Postman testing  
+### **How to Test with Postman**
+Download the Postman and create one by adding the endpoints:
+- /ocr/image-to-text
+- /ocr/table-to-json
+
+## Localhost testing 
+```bash 
+node app.js
+```
+The server should be accessible at http://localhost:4000.
+
+## Live testing
+```bash 
+Live Url: http://137.184.77.186:4000/api-docs/
+```
 ## ❌ Error Handling  
 
 The API gracefully handles the following errors:  
