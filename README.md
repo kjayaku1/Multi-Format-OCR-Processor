@@ -122,10 +122,15 @@ http://localhost:4000/api/ocr
     {
       "page": 1,
       "line": 1,
-      "text": "Hola mundo"
+      "text": "Hola world"
     }
   ]
 }
+```
+#### Tested screenshots
+
+![image](https://github.com/user-attachments/assets/7d2c6754-191f-4068-bfd7-5cbcc520f857)
+
 
 
 
