@@ -1,8 +1,7 @@
 **OCR API Documentation 🖼️✨**
 📽️ Live Demo
 http://137.184.77.186:4000/api-docs/
-
-Features 🚀
+## ⚙️ Features
 
 📄 Text Extraction: Extract text from images and scanned PDFs, supporting multiple formats.
 📊 Table Extraction: Extract structured table data from PDFs and return it in JSON format.
