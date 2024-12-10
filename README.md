@@ -1,5 +1,22 @@
 ## OCR API Documentation 🖼️✨**
 
+## Table of Contents
+1. [Live Demo](#live-demo)
+2. [Main Features](#main-features)
+3. [Endpoints](#endpoints)
+   - [/ocr/image-to-text](#1-post-ocrimage-to-text)
+   - [/ocr/table-to-json](#2-post-ocrtable-to-json)
+4. [Getting Started](#getting-started)
+   - [Prerequisites](#prerequisites)
+   - [Installation](#installation)
+5. [API Usage](#api-usage)
+6. [Postman Testing](#postman-testing)
+7. [Localhost Testing](#localhost-testing)
+8. [Live Testing](#live-testing)
+9. [Error Handling](#error-handling)
+10. [Screenshots](#screenshots)
+11. [License](#license)
+
 ## 📽️ Live Demo
 http://137.184.77.186:4000/api-docs/
 
