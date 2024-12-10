@@ -1,4 +1,4 @@
-## OCR API Documentation 🖼️✨**
+## OCR API Documentation 🖼️✨
 
 This project provides an API for optical character recognition (OCR), allowing users to convert images to text and tables to JSON format. It includes comprehensive documentation for usage, testing, and installation.
 
