@@ -10,12 +10,15 @@ http://137.184.77.186:4000/api-docs/
 
 ## Endpoints 🛣️
 **1. /ocr/table-to-json 📊**
+
 **Description**: Extract text from an uploaded image.
+
 **Features**
 - Supports text extraction for images with text, handwritten notes,  and scanned PDFs.
 - Handles multiple languages with 80-90% accuracy depending on input quality example(chinese).
 - Outputs text as a JSON object, preserving the structure of the original text
-- #### **Request Details**
+
+#### **Request Details**
 - **Method**: `POST`
 - **Content-Type**: `multipart/form-data`
 - **Supported Formats**: `JPEG`, `PNG`, `BMP`, `TIFF`, `PDF`
