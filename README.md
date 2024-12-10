@@ -98,6 +98,7 @@ Instructions for setting up the project.
 
 <h2 id="inserted api-endpoints">Used API Endpoints</h2>
 Details about the API endpoints
+
 ### Base URL
 ```bash
 http://localhost:4000/api/ocr
@@ -110,7 +111,10 @@ http://localhost:4000/api/ocr
 #### Request
 - **Method**: `POST`
 - **Body**: `form-data`
-  - **Key**: `file` (type: **File**)
+- **Key**: `file` (type: **File**)
+  
+#### Request
+
 
 ### 2. `POST /`
 **Description**:Extract table data from PDF to text
@@ -118,4 +122,4 @@ http://localhost:4000/api/ocr
 #### Request
 - **Method**: `POST`
 - **Body**: `form-data`
-  - **Key**: `file` (type: **File**)
+- **Key**: `file` (type: **File**)
