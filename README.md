@@ -102,7 +102,7 @@ Details about the API endpoints
 
 ### Base URL
 ```bash
-http://localhost:4000/api/ocr
+http://localhost:4000/api-docs/
 ```
 ---
 
@@ -175,3 +175,46 @@ I have uploaded the chinese language image:
 I have uploaded the pdf whcich containes table
 
 ![image](https://github.com/user-attachments/assets/3f28ffde-f6df-4afe-8807-cd135b277c34)
+
+---
+
+## ❌ Error Handling  
+
+The API gracefully handles the following errors:  
+
+### **1. 400 - Bad Request**  
+
+Possible reasons: - No file uploaded - Unsupported file format - No text could be extracted from the uploaded file. 
+
+#### Example Response:  
+```json
+
+{
+  "message": "No file was uploaded or file format is not supported."
+}
+```
+
+### **2. 500 - Internal server error**  
+
+Possible reasons: Internal server error, possibly related to Azure OCR API.
+
+#### Example Response:  
+```json
+{
+  "message": "Error occurred while processing the file with Azure OCR API."
+}
+```
+
+### **3. 404 - No tables found in the document.**  
+
+Possible reasons: No tables found in the document.
+
+#### Example Response:  
+```json
+{
+  "message": "No tables found in the document."
+}
+```
+
+
+
