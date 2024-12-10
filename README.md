@@ -113,7 +113,23 @@ http://localhost:4000/api/ocr
 - **Body**: `form-data`
 - **Key**: `file` (type: **File**)
   
-#### Request
+#### Response
+```json
+{
+  "status": "success",
+  "extractedText": "Hola mundo. This is OCR.",
+  "detailedData": [
+    {
+      "page": 1,
+      "line": 1,
+      "text": "Hola mundo"
+    }
+  ]
+}
+
+
+
+
 
 
 ### 2. `POST /`
