@@ -77,7 +77,7 @@ Instructions for setting up the project.
    AZURE_API_TABLE_TEXT_KEY_TWO = API KEY 2
    AZURE_API_REGION = eastus
 
-- **.env.local**
+- **.env.live**
    ```bash 
    APP_URL = http://137.184.77.186:4000
    PORT = 4000
@@ -91,25 +91,31 @@ Instructions for setting up the project.
    AZURE_API_REGION = eastus
 
 
-4. Start the server
+4. To Start the server
    ```bash
-   pm2 start app.js
+   npm start app.js
 
-   <h2 id="inserted api-endpoints">🌐 Inserted API Endpoints</h2>
-Details about the API endpoints.
+
+<h2 id="inserted api-endpoints">Used API Endpoints</h2>
+Details about the API endpoints
 ### Base URL
 ```bash
 http://localhost:4000/api/ocr
 ```
-
 ---
 
 ### 1. `POST /`
 **Description**: Extract text from an the image.
-
 
 #### Request
 - **Method**: `POST`
 - **Body**: `form-data`
   - **Key**: `file` (type: **File**)
 
+### 2. `POST /`
+**Description**:Extract table data from PDF to text
+
+#### Request
+- **Method**: `POST`
+- **Body**: `form-data`
+  - **Key**: `file` (type: **File**)
