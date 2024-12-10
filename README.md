@@ -3,21 +3,22 @@
 ## 📽️ Live Demo
 http://137.184.77.186:4000/api-docs/
 
-## ⚙️ Features
+## ⚙️ Main Features
 - 📄 Text Extraction: Extract text from images and scanned PDFs, supporting multiple formats.
 - 📊 Table Extraction: Extract structured table data from PDFs and return it in JSON format.
 - 🌍 Multi-language Support: Recognizes text and tables in various languages and handles special characters.
 
 ## Endpoints 🛣️
-**/ocr/table-to-json 📊**
+**1. /ocr/table-to-json 📊**
 **Description**: Extract text from an uploaded image.
 **Features**
-- Supports text extraction for images and scanned PDFs.
-- Handles multiple languages with 80-90% accuracy depending on input quality.
+- Supports text extraction for images with text, handwritten notes,  and scanned PDFs.
+- Handles multiple languages with 80-90% accuracy depending on input quality example(chinese).
 - Outputs text as a JSON object, preserving the structure of the original text
-**Request Details**
-Method: POST
-Supported Formats: PDF (Only PDFs containing tables)
+  
+- **Method**: `POST`
+- **Content-Type**: `multipart/form-data`
+- **Supported Formats**: `JPEG`, `PNG`, `BMP`, `TIFF`, `PDF`
 
 
 
