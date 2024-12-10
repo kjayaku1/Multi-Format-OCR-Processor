@@ -1,4 +1,4 @@
-**OCR API Documentation 🖼️✨**
+## OCR API Documentation 🖼️✨**
 📽️ Live Demo
 http://137.184.77.186:4000/api-docs/
 ## ⚙️ Features
