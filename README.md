@@ -191,9 +191,11 @@ node app.js
 The server should be accessible at http://localhost:4000.
 
 ## Live testing
+Live Url:
 ```bash 
-Live Url: http://137.184.77.186:4000/api-docs/
+http://137.184.77.186:4000/api-docs/
 ```
+
 ## ❌ Error Handling  
 
 The API gracefully handles the following errors:  
