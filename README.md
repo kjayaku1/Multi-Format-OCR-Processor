@@ -67,27 +67,41 @@ Instructions for setting up the project.
      .env.local
    ```bash 
    APP_URL = http://localhost:4000
+   
 PORT = 4000
+
 AZURE_API_ENDPOINT = https://si.cognitiveservices.azure.com
+
 AZURE_API_KEY = API KEY 1
 AZURE_API_KEY_TWO = API KEY 2 
 
+
 AZURE_API_TABLE_TEXT_ENDPOINT = https://tabletotext.cognitiveservices.azure.com
+
 AZURE_API_TABLE_TEXT_KEY = API KEY 1
+
 AZURE_API_TABLE_TEXT_KEY_TWO = API KEY 2
 
 AZURE_API_REGION = eastus
 
 - .env.live
    ```bash 
+
 APP_URL = http://137.184.77.186:4000
+
 PORT = 4000
+
 AZURE_API_ENDPOINT = https://si.cognitiveservices.azure.com
+
 AZURE_API_KEY = API KEY 1
+
 AZURE_API_KEY_TWO = API KEY 2
 
+
 AZURE_API_TABLE_TEXT_ENDPOINT = https://tabletotext.cognitiveservices.azure.com
+
 AZURE_API_TABLE_TEXT_KEY = API KEY 1
+
 AZURE_API_TABLE_TEXT_KEY_TWO = API KEY 2
 
 AZURE_API_REGION = eastus
