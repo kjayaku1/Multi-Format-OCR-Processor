@@ -9,42 +9,22 @@ http://137.184.77.186:4000/api-docs/
 - 🌍 Multi-language Support: Recognizes text and tables in various languages and handles special characters.
 
 ## Endpoints 🛣️
-**/ocr/image-to-text 🖼️**
-  Request Details
-  Method: POST
-  Supported Formats: JPEG, PNG, BMP, TIFF, PDF
+**/ocr/table-to-json 📊**
+**Description**: Extract text from an uploaded image.
 **Features**
 - Supports text extraction for images and scanned PDFs.
 - Handles multiple languages with 80-90% accuracy depending on input quality.
 - Outputs text as a JSON object, preserving the structure of the original text
-
-**/ocr/table-to-json 📊**
 **Request Details**
 Method: POST
 Supported Formats: PDF (Only PDFs containing tables)
-**Features**
-Extracts tables with rows and columns into a JSON format.
-Supports multi-language content and special characters.
+
+
 
 **Prerequisites**
 Node.js and npm installed.
 Azure Cognitive Services OCR subscription.
 Git installed for version control.
-
-# Azure OCR API
-
-## 🚀 Overview
-Welcome to the Azure OCR API, a robust and efficient tool to process images and extract text using Azure Cognitive Services. This API is designed to help developers integrate Optical Character Recognition (OCR) into their projects with ease.
-
-## ⚙️ Features
-- Extract text from images (`POST /api/ocr/`).
-- Analyze specific regions of an image for text (`POST /api/ocr/extract-region`).
-- Reverse the extracted text (`POST /api/ocr/reverse-text`).
-- Check the API status and uptime (`GET /api/ocr/status`).
-- Fully documented with interactive Swagger UI.
-
-## 📽️ Live Demo
-- **Swagger UI**: [http://137.184.101.63:3000/api-docs](http://137.184.101.63:3000/api-docs)
 
 ## 📌 Table of Contents
 1. [Project Setup](#project-setup)
