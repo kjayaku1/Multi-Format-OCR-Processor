@@ -64,23 +64,19 @@ Instructions for setting up the project.
 3. Set up the environmental variables:
    - create a `.env` file(I Have Used 2 .env files whihc is .env.local and .env.live)
   
-     .env.local
+     **.env.local**
    ```bash 
    APP_URL = http://localhost:4000
+   ```bash 
    PORT = 4000
+   AZURE_API_ENDPOINT = https://si.cognitiveservices.azure.com
+   AZURE_API_KEY = API KEY 1
+   AZURE_API_KEY_TWO = API KEY 2
 
-AZURE_API_ENDPOINT = https://si.cognitiveservices.azure.com
-
-AZURE_API_KEY = API KEY 1
-AZURE_API_KEY_TWO = API KEY 2 
-
-AZURE_API_TABLE_TEXT_ENDPOINT = https://tabletotext.cognitiveservices.azure.com
-
-AZURE_API_TABLE_TEXT_KEY = API KEY 1
-
-AZURE_API_TABLE_TEXT_KEY_TWO = API KEY 2
-
-AZURE_API_REGION = eastus
+   AZURE_API_TABLE_TEXT_ENDPOINT = https://tabletotext.cognitiveservices.azure.com
+   AZURE_API_TABLE_TEXT_KEY = API KEY 1
+   AZURE_API_TABLE_TEXT_KEY_TWO = API KEY 2
+   AZURE_API_REGION = eastus
 
 - .env.live
    ```bash 
