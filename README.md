@@ -1,15 +1,15 @@
 **OCR API Documentation 🖼️✨**
-
 📽️ Live Demo
 http://137.184.77.186:4000/api-docs/
 
 Features 🚀
+
 📄 Text Extraction: Extract text from images and scanned PDFs, supporting multiple formats.
 📊 Table Extraction: Extract structured table data from PDFs and return it in JSON format.
 🌍 Multi-language Support: Recognizes text and tables in various languages and handles special characters.
 ⚡ Easy Integration: Simple-to-use endpoints for developers, with detailed Swagger documentation.
 
-Endpoints 🛣️
+**Endpoints 🛣️**
 **/ocr/image-to-text 🖼️**
 Extracts text from images and scanned PDFs.
 
