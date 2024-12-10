@@ -71,3 +71,21 @@ Instructions for setting up the project.
    ```bash
    pm2 start app.js
 
+   <h2 id="inserted api-endpoints">🌐 Inserted API Endpoints</h2>
+Details about the API endpoints.
+### Base URL
+```bash
+http://localhost:4000/api/ocr
+```
+
+---
+
+### 1. `POST /`
+**Description**: Extract text from an the image.
+
+
+#### Request
+- **Method**: `POST`
+- **Body**: `form-data`
+  - **Key**: `file` (type: **File**)
+
