@@ -9,7 +9,7 @@ http://137.184.77.186:4000/api-docs/
 - 🌍 Multi-language Support: Recognizes text and tables in various languages and handles special characters.
 
 ## Endpoints 🛣️
-**1. /ocr/table-to-json 📊**
+**1. /ocr/image-to-text 📊**
 
 **Description**: Extract text from an uploaded image.
 
