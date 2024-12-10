@@ -82,7 +82,7 @@ http://137.184.77.186:4000/api-docs/
   npm install axios curl dotenv express multer node pm2 swagger-jsdoc swagger-ui-express env-cmd cors express-fileupload
 
 3. Set up the environmental variables:
-   create a `.env` file(I Have Used 2 .env files whihc is .env.local and **.env.live**)
+   create a `.env` file(I Have Used 2 .env files whihc is **.env.local** and **.env.live**)
    
 - **.env.local**
    ```bash 
