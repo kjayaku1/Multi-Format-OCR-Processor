@@ -20,7 +20,7 @@ http://137.184.77.186:4000/api-docs/
 
 #### **Request Details**
 - **Method**: `POST`
-- **Content-Type**: `/form-data`
+- **Content-Type**: `multipart/form-data`
 - **Supported Formats**: `JPEG`, `PNG`, `BMP`, `TIFF`, `PDF`
 
 **2. /ocr/table-to-json**
@@ -33,7 +33,7 @@ http://137.184.77.186:4000/api-docs/
 
 #### **Request Details**
 - **Method**: `POST`
-- **Content-Type**: `/form-data`
+- **Content-Type**: `multipart/form-data`
 - **Supported Formats**: `PDF`
 
 ## Getting Started 💻
