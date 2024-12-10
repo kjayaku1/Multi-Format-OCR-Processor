@@ -17,8 +17,9 @@
 10. [Screenshots](#screenshots)
 11. [License](#license)
 
-<h2>📽️ Live Demo</h2>
-<a href="http://137.184.77.186:4000/api-docs/" target="_blank">Click here to explore the Live Demo</a>
+## 📽️ Live Demo {#live-demo}
+http://137.184.77.186:4000/api-docs/
+
 
 
 ## ⚙️ Main Features
