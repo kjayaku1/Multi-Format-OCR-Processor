@@ -79,7 +79,7 @@ http://137.184.77.186:4000/api-docs/
 
 2. Install Dependencies
    ```bash
-  npm install axios curl dotenv express multer node pm2 swagger-jsdoc swagger-ui-express env-cmd cors express-fileupload
+   npm install axios curl dotenv express multer node pm2 swagger-jsdoc swagger-ui-express env-cmd cors express-fileupload
 
 3. Set up the environmental variables:
    create a `.env` file(I Have Used 2 .env files whihc is **.env.local** and **.env.live**)
@@ -134,15 +134,16 @@ Download the Postman and create one by adding the endpoints:
 
 ## 7.Localhost testing 
 ```bash 
-node app.js
+ npm run start:local
 ```
-The server should be accessible at http://localhost:4000.
+The server should be accessible at http://localhost:4000/api-docs/.
 
 ## 8.Live testing
-Live Url:
 ```bash 
-http://137.184.77.186:4000/api-docs/
-```
+ npm run start:live
+``` 
+ Live Url:http://137.184.77.186:4000/api-docs/
+
 ## 9.❌ Error Handling  
 
 The API gracefully handles the following errors:  
