@@ -28,7 +28,7 @@ This project uses the following technologies:
 8. [Live Testing](#live-testing)
 9. [Error Handling](#error-handling)
 10. [Testing with Screenshots](#Testing-with-screenshots)
-11   [for reference](#for-reference)
+11. [for reference](#for-reference)
 
 ## 1.📽️ Live Demo
 http://137.184.77.186:4000/api-docs/
