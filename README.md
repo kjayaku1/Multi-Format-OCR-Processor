@@ -79,7 +79,12 @@ http://137.184.77.186:4000/api-docs/
 
 2. Install Dependencies
    ```bash
-   npm install axios curl dotenv express node pm2 swagger-jsdoc swagger-ui-express env-cmd cors express-fileupload
+   npm install
+
+   or
+   
+   ```bash
+   npm install axios curl dotenv express node pm2 swagger-jsdoc swagger-ui-express env-cmd cors express-fileupload nodemon
 
 3. Set up the environmental variables:
    create a `.env` file(I Have Used 2 .env files whihc is **.env.local** and **.env.live**)
