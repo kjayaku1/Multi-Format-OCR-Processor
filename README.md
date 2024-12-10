@@ -95,6 +95,7 @@ Instructions for setting up the project.
    ```bash
    npm start app.js
 
+![image](https://github.com/user-attachments/assets/4d887e31-ffbb-42a3-bbb6-2fcd7d9c7d11)
 
 <h2 id="inserted api-endpoints">Used API Endpoints</h2>
 Details about the API endpoints
