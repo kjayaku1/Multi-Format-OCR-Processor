@@ -113,7 +113,7 @@ http://137.184.77.186:4000/api-docs/
 
 4. To Start the server
    ```bash
-   npm start app.js
+   npm run start:local
 
 ![image](https://github.com/user-attachments/assets/4d887e31-ffbb-42a3-bbb6-2fcd7d9c7d11)
 
