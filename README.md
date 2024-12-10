@@ -39,9 +39,6 @@ http://137.184.77.186:4000/api-docs/
 ## Getting Started 💻
 
 **Prerequisites**
-
 - Node.js and npm installed.
-
 - Azure Cognitive Services OCR subscription.
-
 - Git installed for version control.
