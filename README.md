@@ -20,15 +20,26 @@ http://137.184.77.186:4000/api-docs/
 
 #### **Request Details**
 - **Method**: `POST`
-- **Content-Type**: `multipart/form-data`
+- **Content-Type**: `/form-data`
 - **Supported Formats**: `JPEG`, `PNG`, `BMP`, `TIFF`, `PDF`
 
+**2. /ocr/table-to-json**
 
+**Description**: Extracts table data from PDF documents and returns it as JSON.
+
+**Features**
+- Extracts tables with rows and columns into a JSON format.
+- Supports multi-language content and special characters.
+
+## Getting Started 💻
 
 **Prerequisites**
 Node.js and npm installed.
+
 Azure Cognitive Services OCR subscription.
+
 Git installed for version control.
+
 
 ## 📌 Table of Contents
 1. [Project Setup](#project-setup)
