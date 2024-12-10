@@ -117,7 +117,7 @@ http://localhost:4000/api/ocr
 ```json
 {
   "status": "success",
-  "extractedText": "Hola mundo. This is OCR.",
+  "extractedText": "Hola world. This is OCR.",
   "detailedData": [
     {
       "page": 1,
@@ -129,12 +129,9 @@ http://localhost:4000/api/ocr
 ```
 #### Tested screenshots
 
+I have uploaded the chinese language image:
+
 ![image](https://github.com/user-attachments/assets/7d2c6754-191f-4068-bfd7-5cbcc520f857)
-
-
-
-
-
 
 
 ### 2. `POST /`
@@ -144,3 +141,36 @@ http://localhost:4000/api/ocr
 - **Method**: `POST`
 - **Body**: `form-data`
 - **Key**: `file` (type: **File**)
+
+#### Response
+```json
+{
+  "status": "success",
+  "tables": [
+    {
+      "header": [
+        "Year",
+        "Revenue ($)",
+        "Expenses ($)",
+        "Profit ($)"
+      ],
+      "body": [
+        [
+          "2021",
+          "5,00,000",
+          "3,00,000",
+          "2,00,000"
+        ]
+      ]
+    }
+  ],
+  "extractedData": [
+    {}
+  ]
+}
+```
+#### Tested screenshots
+
+I have uploaded the pdf whcich containes table
+
+![image](https://github.com/user-attachments/assets/3f28ffde-f6df-4afe-8807-cd135b277c34)
