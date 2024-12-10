@@ -2,16 +2,15 @@
 
 This project provides an API for optical character recognition (OCR), allowing users to convert images to text and tables to JSON format. It includes comprehensive documentation for usage, testing, and installation.
 
-## Table of Contents: 
+## Technologies used: 
 This project uses the following technologies:
 
 1. **Node.js**: Server-side runtime environment for building the API.
 2. **Express**: Web framework for routing and handling HTTP requests.
 3. **Azure Cognitive Services OCR**: For optical character recognition and table extraction from images and PDFs.
 4. **Swagger**: API documentation and UI for testing and interacting with the endpoints.
-5. **Multer**: Middleware for handling file uploads.
-6. **Axios**: For making HTTP requests to the Azure OCR API.
-7. **dotenv**: For managing environment variables in configuration files.
+5. **Axios**: For making HTTP requests to the Azure OCR API.
+6. **dotenv**: For managing environment variables in configuration files.
 
 ## Table of Contents
 1. [Live Demo](#live-demo)
