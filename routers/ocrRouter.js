@@ -125,8 +125,8 @@ OcrRouter.post("/image-to-text", ImageToText);
  *               processFile:
  *                 type: string
  *                 format: binary
- *                 description: The PDF file containing tabular data. Example PDF file is available at [View sample PDF](http://localhost:4000/sample-table.pdf).
- *                 example: "Upload a PDF file. Example: [Download sample PDF](http://localhost:4000/sample-table.pdf)"
+ *                 description: The PDF file containing tabular data. Example PDF file is available at [View sample PDF](http://137.184.77.186:4000/sample-table.pdf).
+ *                 example: "Upload a PDF file. Example: [Download sample PDF](http://137.184.77.186:4000/sample-table.pdf)"
  *           encoding:
  *             processFile:
  *               contentType: application/pdf
